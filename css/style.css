@@ -97,23 +97,22 @@ h1.name, #navText {
   font-weight: bold;
 }
 
-.skills, .portfolioLinks {
-  margin: 7rem 0 10rem 0;
-  position: relative;
+#devSection {
+  margin-bottom: 3rem;
 }
+
+.skills, .portfolioLinks {
+  margin: 3rem 0 3rem 0;
+  text-align: center;
+}
+
 .skills img, .portfolioLinks img {
-  max-height: 6rem;
-  max-width: 6rem;
+  max-height: 4rem;
+  max-width: 4rem;
   width: 100%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  margin: auto;
 }
 .skills img.wideLogo, .portfolioLinks img.wideLogo {
-  max-width: 9rem;
+  max-width: 5rem;
 }
 .skills.skillsSecondRow, .skillsSecondRow.portfolioLinks {
   margin-top: 0;
@@ -292,10 +291,4 @@ input.btn-primary:focus, input.btn-primary:active:hover, input.btn-primary:activ
 }
 .contactSocial a:hover {
   text-decoration: none;
-}
-
-@media only screen and (min-width: 768px) {
-  .skillsSecondRow {
-    display: none;
-  }
 }

@@ -1,0 +1,301 @@
+.topSection {
+  position: absolute;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  left: 0;
+  top: 0;
+}
+.topSection a {
+  color: white;
+  text-align: center;
+  line-height: 100vh;
+  font-size: 2.7rem;
+  font-weight: bold;
+  font-family: 'Josefin Sans', sans-serif;
+  display: block;
+}
+
+.half-screen {
+  height: 100vh;
+  width: 50vw;
+  position: absolute;
+  z-index: 10;
+}
+.half-screen a:hover, .half-screen a:focus {
+  text-decoration: none;
+}
+.half-screen.left-screen {
+  top: 0;
+  left: 0;
+}
+.half-screen.left-screen a {
+  color: black;
+}
+.half-screen.right-screen {
+  right: 0;
+  top: 0;
+  background-color: black;
+}
+
+.main {
+  position: relative;
+  top: 105vh;
+  display: block;
+  margin: auto;
+}
+
+.nav {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 1;
+}
+.nav .bottomNav {
+  position: relative;
+  bottom: 0;
+  right: 0;
+  display: none;
+  width: 0;
+  height: 0;
+  border-bottom: 80px solid black;
+  border-left: 300px solid transparent;
+  opacity: .8;
+}
+.nav #navText {
+  position: absolute;
+  color: white;
+  bottom: 0;
+  right: 10px;
+  z-index: 100;
+  font-size: 2.5rem;
+  coursor: pointer;
+}
+.nav #navText:hover, .nav #navText:focus {
+  text-decoration: none;
+  outline: none;
+}
+
+.envelopeIcon {
+  position: fixed;
+  right: 10px;
+  top: 5px;
+  color: #333333;
+  font-size: 2.8rem;
+  z-index: 200;
+}
+.envelopeIcon a {
+  color: #333333;
+}
+
+h1.name, h2 {
+  text-align: center;
+}
+
+h1.name, #navText {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+}
+
+.skills, .portfolioLinks {
+  margin: 7rem 0 10rem 0;
+  position: relative;
+}
+.skills img, .portfolioLinks img {
+  max-height: 6rem;
+  max-width: 6rem;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.skills img.wideLogo, .portfolioLinks img.wideLogo {
+  max-width: 9rem;
+}
+.skills.skillsSecondRow, .skillsSecondRow.portfolioLinks {
+  margin-top: 0;
+}
+
+.portfolioLinks {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.portfolioLinks img {
+  max-height: 9rem;
+  max-width: 9rem;
+}
+.portfolioLinks img.codepenLogo {
+  max-width: 14rem;
+}
+
+h2.panel-title {
+  font-size: 2rem;
+}
+
+.project {
+  margin-bottom: 7rem;
+}
+
+h2, h1.projectTitle, .btn, h2.panel-title {
+  font-family: "Josefin Sans", sans-serif;
+}
+
+h1.projectTitle {
+  margin-top: 0;
+}
+
+.projectImage {
+  height: 300px;
+  margin-bottom: 2rem;
+}
+
+.portfolioLinksPanel {
+  margin-bottom: 7rem;
+}
+
+.btn {
+  font-size: 1.7rem;
+}
+
+p, h4.modal-title {
+  font-family: "Open Sans", sans-serif;
+}
+
+span.title {
+  font-weight: bold;
+}
+
+.filter-button-group {
+  padding: 15px;
+}
+
+.gallery {
+  padding-right: 0;
+  margin-right: -15px;
+}
+
+.thumbnail {
+  padding: 0px;
+  border-radius: 0px;
+  border: 0px;
+}
+
+.modal-backdrop.in {
+  -webkit-opacity: 0.95;
+  -moz-opacity: 0.95;
+  opacity: 0.95;
+  background-color: #333333;
+}
+
+.ekko-lightbox .modal-content {
+  box-shadow: none;
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+}
+
+.ekko-lightbox .modal-header {
+  border: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.ekko-lightbox .modal-header .close {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+  color: #fff;
+  text-shadow: 0;
+  font-weight: 100;
+  margin-top: 5px;
+}
+
+.ekko-lightbox .modal-header .close:hover {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  opacity: 1;
+}
+
+.ekko-lightbox .modal-header h4.modal-title {
+  font-weight: 100;
+  color: #fff;
+  padding: 0;
+}
+
+.ekko-lightbox .modal-body {
+  padding: 0;
+}
+
+.ekko-lightbox .modal-footer {
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  opacity: 0.9;
+  border: 0;
+  color: #fff;
+  font-weight: 100;
+  padding: 0;
+}
+
+.ekko-lightbox-nav-overlay a {
+  -webkit-opacity: 0.9;
+  -moz-opacity: 0.9;
+  opacity: 0.9;
+  text-shadow: none;
+}
+.ekko-lightbox-nav-overlay a:focus {
+  outline: none;
+}
+
+.gallery {
+  margin-bottom: 5rem;
+}
+
+.centered {
+  text-align: center;
+}
+
+#emailError {
+  color: red;
+}
+
+input.btn-primary {
+  margin-left: -12px;
+  background-color: #000;
+  border: none;
+}
+input.btn-primary:hover, input.btn-primary:active {
+  background-color: #262626;
+  border: none;
+}
+input.btn-primary:focus, input.btn-primary:active:hover, input.btn-primary:active:focus {
+  background-color: #404040;
+  border: none;
+}
+
+.contactSocial {
+  z-index: 200;
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+}
+.contactSocial .fa {
+  margin-right: 2rem;
+  color: black;
+  text-decoration: none;
+}
+.contactSocial a {
+  text-decoration: none;
+}
+.contactSocial a:hover {
+  text-decoration: none;
+}
+
+@media only screen and (min-width: 768px) {
+  .skillsSecondRow {
+    display: none;
+  }
+}

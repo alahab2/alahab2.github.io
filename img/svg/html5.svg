@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 512 512"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="html5.svg">
+  <metadata
+     id="metadata32">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>  HTML5 Logo</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs30" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="640"
+     inkscape:window-height="480"
+     id="namedview28"
+     showgrid="false"
+     inkscape:zoom="0.4609375"
+     inkscape:cx="256"
+     inkscape:cy="256"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+  <style
+     id="style4">.a{fill:#EBEBEB;}.b{fill:#FFF;}</style>
+  <title
+     id="title6">  HTML5 Logo</title>
+  <polygon
+     points="107.6 470.9 74.6 100.6 437.4 100.6 404.3 470.8 255.8 512 "
+     fill="#E44D26"
+     id="polygon8" />
+  <polygon
+     points="256 480.5 376 447.2 404.3 130.9 256 130.9 "
+     fill="#F16529"
+     id="polygon10" />
+  <polygon
+     points="256 268.2 195.9 268.2 191.8 221.7 256 221.7 256 176.3 255.8 176.3 142.1 176.3 143.2 188.5 154.4 313.6 256 313.6"
+     class="a"
+     id="polygon12" />
+  <polygon
+     points="256 386.2 255.8 386.2 205.2 372.6 202 336.3 177.4 336.3 156.4 336.3 162.8 407.6 255.8 433.5 256 433.4"
+     class="a"
+     id="polygon14" />
+  <path
+     d="M108.4 0h23.1v22.8h21.1V0h23.1v69H152.6v-23.1h-21.1v23.1h-23.1V0z"
+     id="path16" />
+  <path
+     d="M206 22.9h-20.3V0h63.7v22.9h-20.3v46.1h-23.1V22.9z"
+     id="path18" />
+  <path
+     d="M259.5 0h24.1l14.8 24.3L313.2 0h24.1v69h-23V34.8l-15.9 24.5h-0.4l-15.9-24.5v34.2h-22.6V0z"
+     id="path20" />
+  <path
+     d="M348.7 0h23.1v46.2h32.5v22.8H348.7V0z"
+     id="path22" />
+  <polygon
+     points="255.8 268.2 255.8 313.6 311.8 313.6 306.5 372.5 255.8 386.2 255.8 433.4 348.9 407.6 349.6 400 360.3 280.4 361.4 268.2 349.2 268.2"
+     class="b"
+     id="polygon24" />
+  <polygon
+     points="255.8 176.3 255.8 204.5 255.8 221.6 255.8 221.7 365.4 221.7 365.4 221.7 365.5 221.7 366.4 211.5 368.5 188.5 369.6 176.3"
+     class="b"
+     id="polygon26" />
+</svg>

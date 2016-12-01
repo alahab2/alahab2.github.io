@@ -137,8 +137,8 @@ h1.name, #navText {
 }
 
 .portfolioLinks {
-  margin-top: 3rem;
-  margin-bottom: 3rem;
+  margin-top: 2rem;
+  margin-bottom: 0;
 }
 .portfolioLinks img {
   max-height: 9rem;

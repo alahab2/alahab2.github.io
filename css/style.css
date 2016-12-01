@@ -97,6 +97,14 @@ h1.name, #navText {
   font-weight: bold;
 }
 
+.intro {
+  margin-bottom: 3rem;
+}
+
+.sectionTitle {
+  border-top: 1px solid black;
+}
+
 #devSection {
   margin-bottom: 3rem;
 }
@@ -112,10 +120,20 @@ h1.name, #navText {
   width: 100%;
 }
 .skills img.wideLogo, .portfolioLinks img.wideLogo {
-  max-width: 5rem;
+  max-width: 6rem;
 }
 .skills.skillsSecondRow, .skillsSecondRow.portfolioLinks {
   margin-top: 0;
+}
+
+.thumbnail img {
+  max-height: 15rem;
+  max-width: 15rem;
+  width: 100%;
+}
+
+#johnsHopkinsLogo {
+  padding: 7rem 0 3rem 0;
 }
 
 .portfolioLinks {
